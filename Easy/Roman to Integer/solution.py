@@ -1,7 +1,7 @@
 #Roman to Integer
 class Solution:
 
-	def romanToInt(self, roman: str) -> int:
+	def romanToInt ( self, roman: str ) -> int:
         
 		#print ( 'Roman:', roman, '\n' )
 		
