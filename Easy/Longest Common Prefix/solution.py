@@ -32,6 +32,6 @@ def main ():
 	ts = Solution ()
 
 	assert ts.longestCommonPrefix ( [ "flower", "flow", "flight" ] ) == "fl"
-	assert ts.longestCommonPrefix ( ["dog","racecar","car"] ) == ""
+	assert ts.longestCommonPrefix ( [ "dog", "racecar", "car" ] ) == ""
 
 main ()
