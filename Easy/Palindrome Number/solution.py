@@ -1,7 +1,7 @@
 #Palindrome Number
 class Solution:
 
-	def isPalindrome(self, x: int) -> bool:
+	def isPalindrome ( self, x: int ) -> bool:
         
 		#print ( str ( x ) )
 		#print ( str ( x ) [::-1] )
