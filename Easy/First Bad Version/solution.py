@@ -5,7 +5,7 @@
 
 class Solution:
 
-	def firstBadVersion(self, n: int) -> int:
+	def firstBadVersion ( self, n: int ) -> int:
         
 		#Binary Search
 		left, right = 0, n - 1
