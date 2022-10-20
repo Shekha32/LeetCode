@@ -9,7 +9,7 @@
 
 class Solution:
 
-    	def evaluateTree ( self, root: Optional[TreeNode] ) -> bool:
+	def evaluateTree ( self, root: Optional[TreeNode] ) -> bool:
         
 		if root.left == None and root.right == None:    #leaf node
 			return True if root.val == 1 else False
