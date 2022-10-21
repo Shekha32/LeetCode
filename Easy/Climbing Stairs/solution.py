@@ -26,7 +26,7 @@ class Solution:
                 mas [ 2 ] = 2
                 
                 for i in range ( 3, n + 1 ):
-                        mas [ i ] = mas [ i - 1 ] + mas [ i - 2 ]
+                        mas [ i ] = mas [ i - 1 ] + mas [ i - 2 ]       #Fibonacci series
                 
                 return mas [ n ]
 
