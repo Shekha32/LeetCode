@@ -37,7 +37,7 @@ class Solution:
                 if l % 2 == 1:
                         return self.__kth ( A, B, l // 2 )
                 else:
-                        return ( self.__kth ( A, B, l // 2 ) + self.__kth ( A, B, l // 2 - 1 ) ) / 2.   
+                        return ( self.__kth ( A, B, l // 2 ) + self.__kth ( A, B, l // 2 - 1 ) ) / 2
 
 
 def __main():
